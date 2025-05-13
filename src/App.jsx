@@ -7,24 +7,23 @@ import mail from "./assets/mail.svg";
 function App() {
   return (
     <>
-      <div className="text-white container mx-auto h-dvh flex flex-col justify-center items-center flex-nowrap gap-4 py-2">
+      <div className="text-white container mx-auto min-h-dvh flex flex-col justify-center items-center flex-nowrap gap-4">
         <img src={logo_long} alt="Logo" className="h-28" />
         <div className="flex flex-nowrap gap-4">
           <span>BA &#127992;</span>
           <span>SQ &#9899;</span>
           <span>TE &#127934;</span>
         </div>
-        <div className="flex flex-col text-center">
+        <div className="flex flex-col text-center my-2">
           <span>
             "ERFAHRENER SCHLÄGERBESAITER, LANGJÄRIGER SCHLÄGERSPORT-ENTHUSIAST"
           </span>
-
           <span>
             "EXPERIENCED RACKET STRINGER, LIFELONG RACKET SPORTS ADDICT"
           </span>
         </div>
         <div className="">&#128205; Köln, Deutschland</div>
-        <div className="flex items-center justify-center gap-8 mt-10">
+        <div className="flex items-center justify-center gap-8 mt-10 my-2 overflow-hidden">
           <img src={maps} alt="" className="h-20 " />
           <img src={insta} alt="" className="h-20" />
           <img src={WhatsApp} alt="" className="h-20" />
