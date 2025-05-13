@@ -7,9 +7,13 @@ import mail from "./assets/mail.svg";
 function App() {
   return (
     <>
-      <div className="text-white container mx-auto h-dvh flex flex-col justify-center items-center flex-nowrap gap-4">
+      <div className="text-white container mx-auto h-dvh flex flex-col justify-center items-center flex-nowrap gap-4 py-2">
         <img src={logo_long} alt="Logo" className="h-28" />
-        <div className="">BA &#127992; SQ &#9899; TE &#57365;</div>
+        <div className="flex flex-nowrap gap-4">
+          <span>BA &#127992;</span>
+          <span>SQ &#9899;</span>
+          <span>TE &#127934;</span>
+        </div>
         <div className="flex flex-col text-center">
           <span>
             "ERFAHRENER SCHLÄGERBESAITER, LANGJÄRIGER SCHLÄGERSPORT-ENTHUSIAST"
